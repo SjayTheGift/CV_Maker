@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+
+            <section class="section-1 active">
+                <h1>Profile</h1>
+                <div class="grid-2 mb-2 mt-2">
+
+                    <div class="form-group">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="id_fname" name="fname" class="input-form fname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="id_lname" name="lname" class="input-form lname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="id_phone" name="phone" class="input-form phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="id_email" name="email" class="input-form uemail" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Location:</label>
+                        <input type="text" id="id_location" name="location" class="input-form location" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="occupation">Occupation:</label>
+                        <input type="text" id="id_occupation" name="occupation" class="input-form occupation" required>
+                    </div>
+                </div>
+                <label for="about">Description:</label>
+                <textarea class="about"></textarea>
+                <input type="button" value="next" class="btn section-1-next-btn">
+            </section>
+           
+        <section class="section-2">
+            
+                <h1>Education</h1>
+            <div class="section-2-cont">
+                <div class="grid-2 mb-2 mt-2">
+
+                    <div class="form-group">
+                        <label for="fname">Course:</label>
+                        <input type="text" id="id_course" name="fname" class="input-form course" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">Institution:</label>
+                        <input type="text" id="id_collage_name" name="lname" class="input-form collage_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="start-date">Start Date:</label>
+                        <input type="date" id="id_start_date" name="start-date" class="input-form start_date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="end-date">End Date:</label>
+                        <input type="date" id="id_end_date" name="end-date" class="input-form end_date" required>
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="add-more" class="btn add-more">
+            <input type="button" value="previous" class="btn section-2-previous prev-btn">
+            <input type="button" value="next" class="btn section-2-next-btn">
+        </section>
+
+            
+
+        <section class="section-3">
+            <h1>Experience</h1>
+            <div class="section-3-cont">
+                <div class="grid-2 mb-2 mt-2">
+
+                    <div class="form-group">
+                        <label for="exper-start-date">Start Date:</label>
+                        <input type="date" id="id_start_date" name="exper-start-date" class="input-form exper-start-date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exper-end-date">End Date:</label>
+                        <input type="date" id="id_end_date" name="exper-end-date" class="input-form exper-end-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company:</label>
+                        <input type="text" id="id_company" name="company" class="input-form company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="body-occupation">Occupation:</label>
+                        <input type="text"  name="body-occupation" class="input-form body-occupation" required>
+                    </div>
+                </div>
+                <label for="company-textarea">Description:</label>
+                <textarea class="company-textarea"></textarea>
+            </div>
+            <input type="button" value="add-more" class="btn add-more-experince">
+            <input type="button" value="previous" class="btn section-3-previous prev-btn">
+            <input type="button" value="next" class="btn section-3-next-btn">
+        </section>
+            
+
+        
+            <div class="section-4">
+                <h1>Skills</h1>
+                <label for="skill-textarea">Add Skills: <strong>Please note saparate each skill with a comma</strong>
+
+                </label>
+                <textarea class="skill-textarea"></textarea>
+
+                <input type="button" value="previous" class="btn section-4-previous prev-btn">
+                <input type="button" value="next" class="btn section-4-next-btn">
+            </div>
+            
+            
+
+            <div class="section-5">
+                <h1>Interest</h1>
+                <label for="interest-textarea">Add Interest: <strong>Please note saparate each interest with a comma</strong>
+
+                </label>
+                <textarea class="interest-textarea"></textarea>
+                <input type="button" value="previous" class="btn section-5-previous prev-btn">
+                <input type="button" value="preview" class="btn section-5-submit-btn">
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
